@@ -1,0 +1,77 @@
+.AboutMe{
+    height: auto;
+    width: 100%;
+    margin: 40px 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.divImg{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    
+}
+
+.imgDESKTOP{
+    width: 52%;
+    height: auto;
+}
+
+.divInfo{
+    background-color: rgb(5, 5, 5);
+    width: 100%;
+    height: 110vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.divInfo h3{
+  color: #ffff;
+  font-family: "eurostile", sans-serif;
+  font-size: 2.2vw;
+  margin-top: 100px;
+}
+
+
+.divInfo span{
+    border-bottom: 3px solid aqua;
+ }
+
+ .divInfo p {
+  color: #ffff;
+  font-family: "eurostile", sans-serif;
+  font-size: 1.6vw;
+  width: 50%;
+  text-align: center;
+ }
+ 
+ 
+
+
+ 
+@media (max-width: 768px) {
+
+    .imgDESKTOP{
+        width: 95%;
+        height: auto;
+    }
+
+    .divInfo h3{
+        font-size: 24px;
+        text-align: center;
+        margin-top: 50px;
+        width: 95%;
+      }
+
+    .divInfo p{
+        font-size: 20px;
+        width: 90%;
+    }
+
+}
+  
+  

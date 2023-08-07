@@ -4,7 +4,7 @@ import imgPrincp from '../../assets/ImgPrincipal.jpg'
 
 export default function Presentation() {
   return (
-    <main className={styles.divPresentation}>
+    <div className={styles.divPresentation}>
         <h1>Developer <span>Full Stack</span></h1>
         <p>High quality end-to-end web application development</p>
         <Image
@@ -14,6 +14,6 @@ export default function Presentation() {
           className={styles.imgPrincp}
         />
  
-    </main>
+    </div>
   )
 }
