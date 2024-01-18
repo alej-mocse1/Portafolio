@@ -1,6 +1,7 @@
 import Image from 'next/image';
 import imgDeSKTOP from '../../assets/ux_ImgPC.png'
-import styles from './AboutMe.module.css'
+import styles from './AboutMe.module.css';
+import CardPresent from '../Forms/cardsPresentation/cardsPresentation';
 
 export default function AboutMe() {
   return (
@@ -13,10 +14,13 @@ export default function AboutMe() {
       </div>
 
       <div className={styles.divInfo}>
-        <h3>Hello, I'm <span>Alejandro!</span>. Full Stack Developer </h3>
-        <p>I started my journey as a developer in February 2022. I have done remote work for agencies/companies all over Latin America and collaborated with talented people to create digital products during all this time, I am naturally curious and perpetually working to improve my skills, a problem to the time.</p>
+        <h3>Hola soy <span>Alejandro!</span>. Full Stack Developer </h3>
+        <p>Comencé mi camino como desarrollador en febrero de 2022. He realizado trabajo remoto para agencias/empresas en toda América Latina y he colaborado con personas talentosas para crear productos digitales durante todo este tiempo, soy curioso por naturaleza y trabajo perpetuamente para mejorar mis habilidades. un problema a la vez</p>
 
       </div>
+
+
+      <CardPresent></CardPresent>
     </div>
   )
 }

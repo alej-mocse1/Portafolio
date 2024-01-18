@@ -26,17 +26,18 @@
 }
 
 .imgPrincp{
-    border-radius: 10%;
+    border-radius: 5%;
     margin-top: 35px;
-    filter: grayscale(100%); 
+    filter: grayscale(0%); 
     transition: filter 0.3s; 
     width: 20%;
     height: auto;
 }
 
 .imgPrincp:hover{
-    filter: grayscale(0%);
+    filter: grayscale(90%);
     cursor: pointer;
+
 }
 
 @media (max-width: 768px) {
