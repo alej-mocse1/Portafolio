@@ -61,6 +61,17 @@
 }
 
 
+@media (min-width: 1508px) {
+
+  .infoNav{
+    flex-direction: column;
+    width: 900%;
+    height: auto;
+  }
+
+
+}
+
 
 @media (max-width: 768px) {
 

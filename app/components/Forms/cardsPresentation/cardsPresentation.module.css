@@ -1,7 +1,7 @@
 .cards h1{
   
   border-bottom:3px solid aqua;
-  font-size: 28px;
+  font-size: 2.2vw;
 
 }
 
@@ -31,11 +31,11 @@
 .cards p{
   margin-top: 20px;
   text-align: center;
-  font-size: 14px;
+  font-size: 1.2vw;
   width: 90%;
 }
 .cards b{
-    margin-top: 15px;
+    margin-top: 1.2vw;
     border-bottom:2px solid aqua;
     font-size: 24px;
     font-weight: 600;
@@ -43,7 +43,7 @@
 
   .cards span{
     margin-top: 13px;
-    font-size: 14px;
+    font-size: 1.1vwpx;
   }
 
 
