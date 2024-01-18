@@ -9,7 +9,7 @@
 }
 
 .Proyectos h3{
-    font-size: 34px;
+    font-size: 2.3vw;
     font-weight: 700;
     color: white;
     margin-top: 6vh;
@@ -28,7 +28,7 @@
 
 .Proyectos p{
     color: white;
-    font-size: 17px;
+    font-size: 1.3vw;
     margin-top: 0vh;   
     text-align: center;
     width: 60%;
@@ -78,7 +78,7 @@
 .InfoProyect h4{
 
     text-align: left;
-    font-size: 24px;
+    font-size: 1.9vw;
     /* border-bottom: 3px solid rgb(72, 74, 74);; */
     width: auto;
     color: rgb(72, 74, 74);
@@ -90,6 +90,7 @@
     width: 70%;
     text-align: left;
     margin-top: -25px;
+    font-size: 1.2vw;
 
 }
 
@@ -101,7 +102,7 @@
   padding-right: 10px;
   padding-top: 5px;
   padding-bottom: 5px;
-  font-size: 23px;
+  font-size: 1.7vw;
   cursor: pointer;
   text-align: left;
   margin-top: -10px;
