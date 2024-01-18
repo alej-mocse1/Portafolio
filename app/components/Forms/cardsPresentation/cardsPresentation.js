@@ -16,7 +16,7 @@ export default function CardPresent() {
           <b>Tecnológias</b>
 
 
-          <p>Html,Css,JavaScript,TypeScript,React.js,Next.js</p>
+          <p>Html,Css,JavaScript,TypeScript,React.js, <br></br>Next.js</p>
 
 
           <b>Herramientas</b>
@@ -67,7 +67,7 @@ export default function CardPresent() {
         <b>Tecnológias</b>
 
 
-        <p>Node.js,Express,JavaScript,TypeScript,MongoDB, PostgreSQL</p>
+        <p>Node.js,Express,JavaScript,TypeScript, <br></br>MongoDB, PostgreSQL</p>
 
 
         <b>Herramientas</b>
