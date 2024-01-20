@@ -16,7 +16,7 @@ export default function CardPresent() {
           <b>Tecnológias</b>
 
 
-          <p>Html,Css,JavaScript,TypeScript,React.js, <br></br>Next.js</p>
+          <p>Html,Css,JavaScript,TypeScript,<br></br>React.js, Next.js</p>
 
 
           <b>Herramientas</b>

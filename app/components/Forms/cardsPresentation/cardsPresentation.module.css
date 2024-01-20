@@ -60,4 +60,48 @@
     width: 85%;
 }
 }
+
+
+
+@media (max-width: 780px) {
+
+  .CardPresentation{
+    width: 100%;
+    height: auto;
+    position: relative;
+    top: -70vh;
+    display: flex;
+    justify-content: center;
+}
+
+
+  .cards h1{
+  
+    border-bottom:3px solid aqua;
+    font-size: 17px;
+  
+  }
+
+
+  .cards p{
+    font-size: 12px;
+    width: 80%;
+    padding-left:0px;
+  }
+
+  .cards b{
+    font-size: 16px;
+  
+    padding-left:0px;
+  }
+
+  .cards span{
+    margin-top: 13px;
+    font-size: 12px;
+  }
+
+}
+
+
+
   

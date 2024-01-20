@@ -50,8 +50,17 @@
 
 @media (max-width: 900px) {
 
+    
+.division{
+    width: 90%;
+    height: 0px;
+    border: 1px solid rgb(197, 191, 191);
+    border-radius: 3px;
+    margin-top: -27vh;
+}
+
     .colaborations h3{
-        font-size: 24px;
+        font-size: 14px;
         margin-top: 10vh;
       
      }
@@ -62,13 +71,13 @@
 
     .imgDESKTOP2{
         width:auto;
-        height: 19vh;
+        height: 16vh;
         margin-top: 7vh;
     }
 
     .imgDESKTOP3{
         width:auto;
-        height: 15vh;
+        height: 10vh;
         margin-top: 7vh;
     }
 }
