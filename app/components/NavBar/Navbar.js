@@ -3,6 +3,7 @@
 import styles from './NavBar.module.css';
 import Image from 'next/image';
 import logo from "../../assets/logo.png";
+import logoWsp from '../../assets/logoWSP.jpg'
 
 import { useState } from 'react';
 
@@ -14,11 +15,10 @@ export default function NavBar() {
   return (
     <nav className={styles.nav}>
       <div className={styles.infoNav}>
-        <div className={styles.divLogo}>
+        <div className={styles.divLogo}> 
           <Image 
               src={logo} 
-              width={75}
-              height={75}
+           
               className={styles.imgLogo}
           />
 
@@ -41,6 +41,18 @@ export default function NavBar() {
 
         </div>
        </div>
+
+
+       <a>
+
+       <Image 
+              src={logoWsp} 
+           
+              className={styles.logoWsp}
+          />
+
+        
+       </a>
 
 
     </nav>

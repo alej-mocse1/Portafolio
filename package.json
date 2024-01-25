@@ -10,10 +10,13 @@
   },
   "dependencies": {
     "@codaworks/react-glow": "^1.0.5",
+    "aos": "^2.3.4",
     "eslint": "8.45.0",
     "eslint-config-next": "13.4.12",
     "next": "13.4.12",
     "react": "18.2.0",
-    "react-dom": "18.2.0"
+    "react-dom": "18.2.0",
+    "react-typed": "^2.0.9",
+    "swiper": "^11.0.5"
   }
 }

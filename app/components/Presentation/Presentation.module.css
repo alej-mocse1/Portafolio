@@ -8,13 +8,17 @@
 
 .divPresentation h1{
     font-family: "eurostile", sans-serif;
-    font-size: 3.4vw;
-    margin-top: 100px;
+    font-size: 3.9vw;
+    margin-top: 200px;
 }
 
 .divPresentation h1 span{
-   border-bottom: 3px solid aqua;
+
+    border-bottom: 3px solid aqua;
+
 }
+
+
 
 
 
@@ -43,8 +47,8 @@
 @media (max-width: 768px) {
 
     .divPresentation h1{
-        margin-top: 40px;
-        font-size: 24px;
+        margin-top: 170px;
+        font-size: 34px;
     }
 
     .divPresentation p{

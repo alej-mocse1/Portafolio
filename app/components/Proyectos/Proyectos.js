@@ -1,13 +1,22 @@
+"use client"
 import styles from "./Proyectos.module.css";
+
+import { useEffect } from "react";
 
 import Image from "next/image";
 import Notebook from "./assets/net.jpg";
 import ProymentImg from "./assets/Proyment.png";
 import LatamNews from './assets/latamNews.png';
 import Cool from './assets/Cool.png';
-import Moli from './assets/MoliP.png'
+import Moli from './assets/MoliP.png';
+import Aos from "aos";
+import 'aos/dist/aos.css' 
+
 
 export default function Proyectos() {
+  useEffect(()=> {
+   Aos.init({duration:2000})
+  },[])
   return (
     <div>
       <div className={styles.Proyectos}>
@@ -23,11 +32,11 @@ export default function Proyectos() {
 
       <div className={styles.proyectosPresent}>
         <div className={styles.BackGraundImg}>
-          <Image src={LatamNews} className={styles.empresaImg}></Image>
+          <Image src={LatamNews} className={styles.empresaImg}  data-aos="zoom-in-right"></Image>
         </div>
 
-        <div className={styles.InfoProyect}>
-          <h4>LatamNews</h4>
+        <div data-aos="zoom-in-right" className={styles.InfoProyect}>
+          <h4 >LatamNews</h4>
 
           <p>
             Implementamos software para la realización de tareas repetitivas
@@ -42,10 +51,10 @@ export default function Proyectos() {
 
       <div className={styles.proyectosPresent}>
         <div className={styles.BackGraundImg}>
-          <Image src={ProymentImg} className={styles.empresaImg}></Image>
+          <Image src={ProymentImg} className={styles.empresaImg}  data-aos="zoom-in-right"></Image>
         </div>
 
-        <div className={styles.InfoProyect}>
+        <div data-aos="zoom-in-right" className={styles.InfoProyect}>
           <h4>Proyment.com</h4>
 
           <p>
@@ -60,10 +69,10 @@ export default function Proyectos() {
 
       <div className={styles.proyectosPresent}>
         <div className={styles.BackGraundImg}>
-          <Image src={Cool} className={styles.empresaImg}></Image>
+          <Image src={Cool} className={styles.empresaImg}  data-aos="zoom-in-right"></Image>
         </div>
 
-        <div className={styles.InfoProyect}>
+        <div data-aos="zoom-in-right" className={styles.InfoProyect}>
           <h4>CoolFres.pe</h4>
 
           <p>
@@ -75,12 +84,12 @@ export default function Proyectos() {
         </div>
       </div>
 
-      <div className={styles.proyectosPresent}>
-        <div className={styles.BackGraundImg}>
-          <Image src={Moli} className={styles.empresaImg}></Image>
+      <div className={styles.proyectosPresent} >
+        <div className={styles.BackGraundImg} >
+          <Image src={Moli} className={styles.empresaImg}  data-aos="zoom-in-right"></Image>
         </div>
 
-        <div className={styles.InfoProyect}>
+        <div className={styles.InfoProyect}  data-aos="zoom-in-right">
           <h4>Molipromo.pe</h4>
 
           <p>
