@@ -30,12 +30,12 @@ export default function Colaborations() {
         con algunas empresas increíbles:
       </h3>
 
-      <div className={styles.DivImgs} data-aos="flip-up">
-        <Image src={logo1} className={styles.imgDESKTOP3}></Image>
-        <Image src={logo2} className={styles.imgDESKTOP2}></Image>
-        <Image src={logo5} className={styles.imgDESKTOP3}></Image>
-        <Image src={logo4} className={styles.imgDESKTOP3}></Image>
-        <Image src={logo3} className={styles.imgDESKTOP2}></Image>
+      <div className={styles.DivImgs} >
+        <Image src={logo1} className={styles.imgDESKTOP3} data-aos="flip-up"></Image>
+        <Image src={logo2} className={styles.imgDESKTOP2} data-aos="flip-up"></Image>
+        <Image src={logo5} className={styles.imgDESKTOP3} data-aos="flip-up"></Image>
+        <Image src={logo4} className={styles.imgDESKTOP3} data-aos="flip-up"></Image>
+        <Image src={logo3} className={styles.imgDESKTOP2}  data-aos="flip-up"></Image>
       </div>
     </div> 
   );

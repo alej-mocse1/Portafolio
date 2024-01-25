@@ -173,13 +173,13 @@
   }
 
   .imgLogo{
-   height: 16vh;
+   height: 13vh;
   }
 
   .logoWsp{
-    height: 16vh;
-
-    left: 78vw;
+    height: 13vh;
+    top: 86vh;
+    left: 80vw;
   }
 }
 
