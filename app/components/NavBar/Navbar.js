@@ -3,7 +3,8 @@
 import styles from './NavBar.module.css';
 import Image from 'next/image';
 import logo from "../../assets/logo.png";
-import logoWsp from '../../assets/logoWSP.jpg'
+import logoWsp from '../../assets/logoWSP.jpg';
+import Link from 'next/link';
 
 import { useState } from 'react';
 
@@ -45,12 +46,14 @@ export default function NavBar() {
 
        <a>
 
-       <Image 
-              src={logoWsp} 
-           
+
+
+<Link href='https://api.whatsapp.com/send?phone=2364556775'>
+          <Image src={logoWsp} 
+    
               className={styles.logoWsp}
           />
-
+          </Link>
         
        </a>
 

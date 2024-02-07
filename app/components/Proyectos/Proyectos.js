@@ -1,4 +1,4 @@
-"use client"
+"use client";
 import styles from "./Proyectos.module.css";
 
 import { useEffect } from "react";
@@ -6,17 +6,16 @@ import { useEffect } from "react";
 import Image from "next/image";
 import Notebook from "./assets/net.jpg";
 import ProymentImg from "./assets/Proyment.png";
-import LatamNews from './assets/latamNews.png';
-import Cool from './assets/Cool.png';
-import Moli from './assets/MoliP.png';
+import LatamNews from "./assets/latamNews.png";
+import Cool from "./assets/Cool.png";
+import Moli from "./assets/MoliP.png";
 import Aos from "aos";
-import 'aos/dist/aos.css' 
-
+import "aos/dist/aos.css";
 
 export default function Proyectos() {
-  useEffect(()=> {
-   Aos.init({duration:2000})
-  },[])
+  useEffect(() => {
+    Aos.init({ duration: 2000 });
+  }, []);
   return (
     <div>
       <div className={styles.Proyectos}>
@@ -32,76 +31,105 @@ export default function Proyectos() {
 
       <div className={styles.proyectosPresent}>
         <div className={styles.BackGraundImg}>
-          <Image src={LatamNews} className={styles.empresaImg}  data-aos="zoom-in-right"></Image>
+          <Image
+            src={LatamNews}
+            className={styles.empresaImg}
+            data-aos="zoom-in-right"
+          ></Image>
         </div>
 
         <div data-aos="zoom-in-right" className={styles.InfoProyect}>
-          <h4 >LatamNews</h4>
+          <h4>LatamNews</h4>
 
           <p>
-            Implementamos software para la realización de tareas repetitivas
-            para reemplazo del trabajo manual en un entorno operativo estándar.
+            Web de noticias. Con Noticias sobre tecnología, finanzas Y
+            deportes con actualizaciones las 24 horas del día, los 7 días de la
+            semana.
           </p>
 
-          <button>Visitar Web</button>
+          <a
+            href="https://latam-news-ar.vercel.app/"
+            style={{ textDecoration: "none", border: "none" }}
+          >
+            <button>Visitar Web</button>
+          </a>
         </div>
       </div>
 
-     
-
       <div className={styles.proyectosPresent}>
         <div className={styles.BackGraundImg}>
-          <Image src={ProymentImg} className={styles.empresaImg}  data-aos="zoom-in-right"></Image>
+          <Image
+            src={ProymentImg}
+            className={styles.empresaImg}
+            data-aos="zoom-in-right"
+          ></Image>
         </div>
 
         <div data-aos="zoom-in-right" className={styles.InfoProyect}>
           <h4>Proyment.com</h4>
 
           <p>
-            Implementamos software para la realización de tareas repetitivas
-            para reemplazo del trabajo manual en un entorno operativo estándar.
+            Wen desarrollada para una de las mejores consultoras de Perú,
+            dedicada a  potenciar empresas a través de servicios integrales.
           </p>
-
+        
+          <a
+            href="  https://proyment.com/"
+            style={{ textDecoration: "none", border: "none" }}
+          >
           <button>Visitar Web</button>
+          </a>
         </div>
       </div>
 
-
       <div className={styles.proyectosPresent}>
         <div className={styles.BackGraundImg}>
-          <Image src={Cool} className={styles.empresaImg}  data-aos="zoom-in-right"></Image>
+          <Image
+            src={Cool}
+            className={styles.empresaImg}
+            data-aos="zoom-in-right"
+          ></Image>
         </div>
 
         <div data-aos="zoom-in-right" className={styles.InfoProyect}>
           <h4>CoolFres.pe</h4>
 
           <p>
-            Implementamos software para la realización de tareas repetitivas
-            para reemplazo del trabajo manual en un entorno operativo estándar.
+          Web Realizada para una reconocida marca de Gaseosas de Perú.
           </p>
-
+          <a
+            href="https://www.coolfresh.pe/"
+            style={{ textDecoration: "none", border: "none" }}
+          >
           <button>Visitar Web</button>
+          </a>
         </div>
       </div>
 
-      <div className={styles.proyectosPresent} >
-        <div className={styles.BackGraundImg} >
-          <Image src={Moli} className={styles.empresaImg}  data-aos="zoom-in-right"></Image>
+      <div className={styles.proyectosPresent}>
+        <div className={styles.BackGraundImg}>
+          <Image
+            src={Moli}
+            className={styles.empresaImg}
+            data-aos="zoom-in-right"
+          ></Image>
         </div>
 
-        <div className={styles.InfoProyect}  data-aos="zoom-in-right">
+        <div className={styles.InfoProyect} data-aos="zoom-in-right">
           <h4>Molipromo.pe</h4>
 
           <p>
-            Implementamos software para la realización de tareas repetitivas
-            para reemplazo del trabajo manual en un entorno operativo estándar.
+          Web Realizada para una reconocida marca de Pastas de Perú.
           </p>
 
+          <a
+            href="https://molipromo.pe/"
+            style={{ textDecoration: "none", border: "none" }}
+          >
           <button>Visitar Web</button>
+          </a>
         </div>
       </div>
-
-     
     </div>
   );
 }
