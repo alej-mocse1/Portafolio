@@ -11,7 +11,7 @@ export default function AboutMe() {
 
 
   return (
-    <div className={styles.AboutMe}> 
+    <div className={styles.AboutMe} > 
       <div className={styles.divImg}>
         <Image
          src={imgDeSKTOP}
@@ -26,7 +26,7 @@ export default function AboutMe() {
       </div>
 
 
-      <CardPresent></CardPresent>
+      <CardPresent id="servicios"></CardPresent>
     </div>
   )
 }

@@ -23,11 +23,11 @@
   }
 
   .logoWsp{
-    height: 7vw;
+    height: 6vw;
     width: auto;
     margin-top: 0px;
     position: fixed;
-    top: 80vh;
+    top: 82vh;
     left: 90vw;
     cursor: pointer;
     z-index: 2000;

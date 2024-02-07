@@ -9,10 +9,10 @@ import Testimonials from './components/Testimonials/Testimonials.jsx';
 export default function Home() {
   return (
     <main className={styles.main}>
-      <Presentation></Presentation>
-      <AboutMe></AboutMe>
-      <Colaborations></Colaborations>
-      <Proyectos></Proyectos>
+      <Presentation id="inicio"></Presentation>
+      <AboutMe ></AboutMe>
+      <Colaborations id="servicios"></Colaborations>
+      <Proyectos id="contacto"></Proyectos>
       {/* <Testimonials></Testimonials> */}
     </main>
   )

@@ -17,7 +17,7 @@ export default function Proyectos() {
     Aos.init({ duration: 2000 });
   }, []);
   return (
-    <div>
+    <div id="Proyectos">
       <div className={styles.Proyectos}>
         <h3>Mis proyectos</h3>
 
