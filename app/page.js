@@ -4,6 +4,7 @@ import styles from './page.module.css';
 import Colaborations from './components/colaborations/Colaborations.js';
 import Proyectos from './components/Proyectos/Proyectos.js';
 import Testimonials from './components/Testimonials/Testimonials.jsx';
+import Footer from './components/footer/Footer.js';
 
 
 export default function Home() {
@@ -11,8 +12,9 @@ export default function Home() {
     <main className={styles.main}>
       <Presentation id="inicio"></Presentation>
       <AboutMe ></AboutMe>
-      <Colaborations id="servicios"></Colaborations>
+      <Colaborations ></Colaborations>
       <Proyectos id="contacto"></Proyectos>
+      <Footer></Footer>
       {/* <Testimonials></Testimonials> */}
     </main>
   )

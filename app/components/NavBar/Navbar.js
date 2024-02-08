@@ -31,7 +31,7 @@ export default function NavBar() {
 
         <div className={`${styles.divLinks} ${isOpen && styles.Open} `}>
           <ul>
-            <li>
+            <li >
               <Link href="#inicio">Inicio</Link>
             </li>
             <li>
