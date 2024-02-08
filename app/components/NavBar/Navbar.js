@@ -4,7 +4,7 @@ import styles from "./NavBar.module.css";
 import Image from "next/image";
 import logo from "../../assets/logo.png";
 import logoWsp from "../../assets/logoWSP.jpg";
-import Link from "next/link";
+import Link from "next/link";  
 
 import { useState } from "react";
 
