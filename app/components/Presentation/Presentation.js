@@ -16,8 +16,8 @@ export default function Presentation() {
   return (
     <div className={styles.divPresentation}>
         <Image
-          width={260}
-           height={310}
+           width={360}
+           height={410}
            src={imgPrincp}
           className={styles.imgPrincp}
         />
