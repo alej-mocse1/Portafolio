@@ -1,7 +1,7 @@
 "use client"
 import styles from './Presentation.module.css';
 import Image from 'next/image';
-import imgPrincp from '../../assets/DEV5.png'
+import imgPrincp from '../../assets/ImgPrincipal.jpg'
 import { GlowCapture, Glow } from '@codaworks/react-glow';
 import { useEffect } from 'react';
 import { ReactTyped } from 'react-typed';
@@ -16,8 +16,8 @@ export default function Presentation() {
   return (
     <div className={styles.divPresentation}>
         <Image
-           width={360}
-           height={410}
+          //  width={360}
+          //  height={410}
            src={imgPrincp}
           className={styles.imgPrincp}
         />

@@ -32,7 +32,7 @@ export default function NavBar() {
         <div className={`${styles.divLinks} ${isOpen && styles.Open} `}>
           <ul>
             <li >
-              <Link style={{borderBottom:'1.5px solid rgb(72, 90, 90)'}}  href="#inicio">Inicio</Link>
+              <Link style={{borderBottom:'2px solid rgb(83, 177, 191)'}}  href="#inicio">Inicio</Link>
             </li>
             <li>
               <Link href="#Proyectos">Proyectos</Link>

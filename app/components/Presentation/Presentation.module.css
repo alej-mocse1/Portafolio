@@ -20,7 +20,7 @@
 
 .divPresentation h1 span{
 
-    border-bottom: 1.5px solid rgb(188, 168, 154);
+    border-bottom: 2px solid rgb(83, 177, 191);
     text-align: left;
     align-items: left;
 
@@ -41,16 +41,17 @@
     border-radius: 5%;
     margin-left: 10vw;
     margin-top: 40px;
-    filter: grayscale(0%); 
+  
+    filter: grayscale(30%);
     /* box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.1); */
     transition: filter 0.3s; 
-    width: auto;
-    min-height: 100%;
+    width: 24vw;
+    height: auto;
     border: 1px solid rgb(159, 152, 152);
 }
 
 .imgPrincp:hover{
-    filter: grayscale(90%);
+    filter: grayscale(0%); 
     cursor: pointer;
 
 }
@@ -71,8 +72,10 @@
 
     .imgPrincp{
         margin-top: 0px;
-        width: 280px;
+        width: 200px;
         height: auto;
+        margin-left: 4vw;
+        margin-right: 4vw;
     }
     
   }
