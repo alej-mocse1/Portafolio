@@ -92,7 +92,7 @@ export default function Proyectos() {
         </div>
 
         <div data-aos="zoom-in-right" className={styles.InfoProyect}>
-          <h4>CoolFres.pe</h4>
+          <h4>CoolFresh.pe</h4>
 
           <p>
           Web Realizada para una reconocida marca de Gaseosas de Perú.
@@ -130,6 +130,10 @@ export default function Proyectos() {
           </a>
         </div>
       </div>
+
+
+      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d6566.264154057179!2d-60.9401836135227!3d-34.6261024694533!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95b8eaa3956c5f2b%3A0x6a78406a7a0f2d7!2sC.%20Onas%2C%20Provincia%20de%20Buenos%20Aires!5e0!3m2!1ses!2sar!4v1707787239010!5m2!1ses!2sar" style={{width:'98.5vw',height:'100vh',border:"1px solid white"}} allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+
     </div>
   );
 }

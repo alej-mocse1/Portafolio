@@ -32,7 +32,7 @@ export default function NavBar() {
         <div className={`${styles.divLinks} ${isOpen && styles.Open} `}>
           <ul>
             <li >
-              <Link href="#inicio">Inicio</Link>
+              <Link style={{borderBottom:'1.5px solid rgb(72, 90, 90)'}}  href="#inicio">Inicio</Link>
             </li>
             <li>
               <Link href="#Proyectos">Proyectos</Link>
@@ -54,7 +54,7 @@ export default function NavBar() {
       </div>
 
       <a>
-        <Link href="https://api.whatsapp.com/send?phone=2364556775">
+        <Link href="https://api.whatsapp.com/send?phone=2364556775" target="_blank">
           <Image src={logoWsp} className={styles.logoWsp} />
         </Link>
       </a>

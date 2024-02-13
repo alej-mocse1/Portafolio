@@ -16,7 +16,7 @@ import 'aos/dist/aos.css'
 export default function Colaborations() {
 
   useEffect(()=> {
-    Aos.init({duration:1000})
+    Aos.init({duration:2000})
    },[])
 
 
@@ -25,17 +25,17 @@ export default function Colaborations() {
       <div className={styles.division}></div>
 
 
-    <h3>
+    <h3 data-aos="fade-down">
         Estoy orgulloso de haber colaborado <br></br>
         con algunas empresas increíbles:
       </h3>
 
       <div className={styles.DivImgs} >
-        <Image src={logo1} className={styles.imgDESKTOP3} data-aos="flip-up"></Image>
-        <Image src={logo2} className={styles.imgDESKTOP2} data-aos="flip-up"></Image>
-        <Image src={logo5} className={styles.imgDESKTOP3} data-aos="flip-up"></Image>
-        <Image src={logo4} className={styles.imgDESKTOP3} data-aos="flip-up"></Image>
-        <Image src={logo3} className={styles.imgDESKTOP2}  data-aos="flip-up"></Image>
+        <Image src={logo1} className={styles.imgDESKTOP3} ></Image>
+        <Image src={logo2} className={styles.imgDESKTOP2} ></Image>
+        <Image src={logo5} className={styles.imgDESKTOP3} ></Image>
+        <Image src={logo4} className={styles.imgDESKTOP3}></Image>
+        <Image src={logo3} className={styles.imgDESKTOP2}  ></Image>
       </div>
     </div> 
   );

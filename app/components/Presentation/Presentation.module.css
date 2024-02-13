@@ -39,11 +39,13 @@
 
 .imgPrincp{
     border-radius: 5%;
+    margin-left: 10vw;
     margin-top: 40px;
     filter: grayscale(0%); 
     transition: filter 0.3s; 
     width: auto;
-    height: 10%;
+    min-height: 100%;
+    border: 1px solid rgb(159, 152, 152);
 }
 
 .imgPrincp:hover{

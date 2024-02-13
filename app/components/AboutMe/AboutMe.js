@@ -26,7 +26,7 @@ export default function AboutMe() {
       </div>
 
 
-      <CardPresent id="servicios"></CardPresent>
+      <CardPresent></CardPresent>
     </div>
   )
 }
