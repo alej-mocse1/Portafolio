@@ -58,16 +58,20 @@
 
 @media (max-width: 768px) {
 
+    .divPresentation{
+        flex-direction: column;
+    }
+
     .divPresentation h1{
-        margin-top: 80px;
+        margin-top: 20px;
         font-size: 34px;
     }
 
     .divPresentation p{
         margin-top: 0px;
         font-size: 14px;
-        width: 75%;
-        text-align: left;
+        width: 100%;
+        text-align: center;
     }
 
     .imgPrincp{
@@ -78,6 +82,10 @@
         margin-right: 4vw;
     }
     
+    .divPresentation div{
+        text-align: center;
+     }
+     
   }
   
   

@@ -152,7 +152,7 @@
     transform: translateX(-100%);
     transition: 1s;
     z-index: 1;
-    background-color: white;
+    background-color: #F5F5F5;
     margin-top: -10px;
   }
 
