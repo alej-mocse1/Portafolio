@@ -71,6 +71,7 @@
         margin-top: 0px;
         font-size: 14px;
         width: 100%;
+        
         text-align: center;
     }
 
@@ -84,6 +85,7 @@
     
     .divPresentation div{
         text-align: center;
+        padding: 5vw;
      }
      
   }
