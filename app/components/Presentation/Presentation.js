@@ -33,7 +33,7 @@ export default function Presentation() {
         </div>
 
 
-<div className={styles.DivImg}>
+<div className={styles.DivImg} data-aos="zoom-in-right">
 
           {/* <Image
             width={150}
