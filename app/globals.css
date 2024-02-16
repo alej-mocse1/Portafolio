@@ -1,14 +1,20 @@
-@font-face {
-  font-family: 'Averta';
-  src: url('./font/AvertaDemoPECuttedDemo-Regular.otf')
+body{
+    width: 100%;
+    height: auto;
+    margin: 0;
+    background-color: #F5F5F5;
 }
-   
-   
-   
-   body{
-        width: 100%;
-        height: auto;
-        margin: 0;
-        background-color: #F5F5F5;
-        font-family: Averta
-    }
+::-webkit-scrollbar {
+    width: 10px; /* Ancho de la barra de desplazamiento */
+  }
+  
+  /* Estilos para la barra de desplazamiento cuando el usuario no interactúa */
+  ::-webkit-scrollbar-thumb {
+    background-color: #888; /* Color de fondo de la barra de desplazamiento */
+    border-radius: 5px; /* Bordes redondeados */
+  }
+  
+  /* Estilos para la barra de desplazamiento cuando el usuario interactúa */
+  ::-webkit-scrollbar-thumb:hover {
+    background-color: #555; /* Cambio de color al pasar el mouse */
+  }

@@ -11,7 +11,7 @@ const myFont = localFont({ src: './font/AvertaDemoPE-ExtraBold.otf' })
 
 export default function Home() {
   return (
-    <main  className={` ${styles.main} ${myFont.className}`}>
+    <main  className={` ${styles.main} `}>
       <Presentation id="inicio"></Presentation>
       <AboutMe ></AboutMe>
       <Colaborations ></Colaborations>
