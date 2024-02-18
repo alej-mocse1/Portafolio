@@ -162,8 +162,8 @@
 
   .divLinks{
     width: 100%;
-    min-height: 40vh;
-    align-items:normal;
+    min-height: 100vh;
+    align-items:start;
     margin-top: 0px;
     transform: translateX(-100%);
     transition: 1s;
@@ -183,12 +183,16 @@
     margin-right: 0px;
     align-items: start;
   }
+  .divLinks ul li {
+    margin-top: 30px;
+  }
   
   .divLinks ul li a {
     font-size: 21px;
     width: 100%;
     text-align: left;
     padding: 0;
+    margin-top: 30px;
   }
 
   .imgLogo{

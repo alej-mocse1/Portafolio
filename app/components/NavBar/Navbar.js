@@ -17,7 +17,10 @@ export default function NavBar() {
     <nav className={styles.nav}>
       <div className={styles.infoNav}>
         <div className={styles.divLogo}>
-          <Image src={logo} className={styles.imgLogo} />
+{/*           
+          <div></div>
+         */}
+          <Image src={logo} className={styles.imgLogo} /> 
 
           <div
             className={styles.divTogle}
