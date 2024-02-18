@@ -128,13 +128,18 @@
         
         /* text-align: center; */
     }
+    .DivImg{
+        border: 1px solid black;
+        width: 100%;
+        justify-content: start;
+    }
 
     .imgPrincp{
         margin-top: -120px;
         height: 100px;
         width: auto;
-        margin-left: 4vw;
-        margin-right: 1vw;
+        /* margin-left: 4vw;
+        margin-right: 1vw; */
         z-index: 300;
     }
 
@@ -142,8 +147,8 @@
         margin-top: -120px;
         height: 100px;
         width: auto;
-        margin-left: 4vw;
-        margin-right: 1vw;
+        /* margin-left: 4vw;
+        margin-right: 1vw; */
         z-index: 300;
     }
     
@@ -152,8 +157,8 @@
         margin-top: -120px;
         height: 100px;
         width: auto;
-        margin-left: 4vw;
-        margin-right: 0vw;
+        /* margin-left: 4vw;
+        margin-right: 0vw; */
         z-index: 300;
     }
     
