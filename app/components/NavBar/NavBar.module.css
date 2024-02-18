@@ -177,6 +177,15 @@
 
   }
 
+  .CloseTogle{
+   margin-top: -30px;
+  }
+
+  .IMGTogle{
+    margin-top: -30px;
+  }
+
+
   .divLinks ul{
     width: 100%;
     flex-direction: column;
@@ -196,7 +205,8 @@
   }
 
   .imgLogo{
-   height: 13vh;
+   height: 150px;
+   margin-top: -20px;
   }
 
   .logoWsp{
