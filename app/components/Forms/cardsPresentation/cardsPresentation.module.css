@@ -82,9 +82,12 @@
   
   }
 
+.pResponsive{
+  font-size: 15px !important;
+}
 
   .cards p{
-    font-size: 12px;
+    font-size: 14px;
     width: 80%;
     padding-left:0px;
   }

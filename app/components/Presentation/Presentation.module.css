@@ -131,7 +131,7 @@
 
     .imgPrincp{
         margin-top: -120px;
-        height: 19vw;
+        height: 100px;
         width: auto;
         margin-left: 4vw;
         margin-right: 4vw;
@@ -140,7 +140,7 @@
 
     .imgPrincp2{
         margin-top: -120px;
-        height: 19vw;
+        height: 100px;
         width: auto;
         margin-left: 4vw;
         margin-right: 4vw;
@@ -150,10 +150,10 @@
 
     .imgPrincp3{
         margin-top: -120px;
-        height: 19vw;
+        height: 100px;
         width: auto;
         margin-left: 4vw;
-        margin-right: 12vw;
+        margin-right: 4vw;
         z-index: 300;
     }
     

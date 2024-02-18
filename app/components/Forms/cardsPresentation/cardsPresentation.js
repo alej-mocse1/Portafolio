@@ -19,7 +19,7 @@ export default function CardPresent() {
 
           <h1> Desarrollos Frontend</h1> 
 
-          <p>Desarrollos Frontend, ultimos frameworks y optimización de rendimiento web.</p>
+          <p className={styles.pResponsive}>Desarrollos Frontend, ultimos frameworks y optimización de rendimiento web.</p>
 
           <b>Tecnológias</b>
 
@@ -44,12 +44,12 @@ export default function CardPresent() {
 
         <h1>Optimización web</h1> 
 
-        <p>Optimización web, mejora de velocidad, rendimiento y SEO de sitios para ofrecer una experiencia excepcional al usuario.</p>
+        <p className={styles.pResponsive}>Optimización web, mejora de velocidad, rendimiento y SEO de sitios para ofrecer una experiencia excepcional al usuario.</p>
 
         <b>Mejoras</b>
 
 
-        <p>enfoque eficiente y herramientas avanzadas aseguran un rendimiento óptimo</p>
+        <p >enfoque eficiente y herramientas avanzadas aseguran un rendimiento óptimo</p>
 
 
         <b>Resultados</b>
@@ -70,7 +70,7 @@ export default function CardPresent() {
 
         <h1>Desarrollos Backend</h1> 
 
-        <p>Desarrollos Backend, sólida construcción de sistemas robustos y eficientes..</p>
+        <p className={styles.pResponsive}>Desarrollos Backend, sólida construcción de sistemas robustos y eficientes..</p>
 
         <b>Tecnológias</b>
 
