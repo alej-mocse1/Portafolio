@@ -4,6 +4,8 @@ import styles from "./NavBar.module.css";
 import Image from "next/image";
 import logo from "../../assets/logo.png";
 import logoWsp from "../../assets/logoWSP.jpg";
+import Close from '../../assets/close-line.png';
+import Open from '../../assets/menu-line.png';
 import Link from "next/link";  
 
 import { useState } from "react";
@@ -23,9 +25,12 @@ export default function NavBar() {
               setOpen(!isOpen);
             }}
           >
-            <span className={`${isOpen && styles.Span1}`}></span>
+            {/* <span className={`${isOpen && styles.Span1}`}></span>
             <span className={`${isOpen && styles.Span2}`}></span>
-            <span className={`${isOpen && styles.Span3}`}></span>
+            <span className={`${isOpen && styles.Span3}`}></span> */}
+            {isOpen ? 
+                  <Image src={Close}  className={styles.CloseTogle} /> :   <Image src={Open}   className={styles.IMGTogle}/> 
+            }
           </div>
         </div>
 

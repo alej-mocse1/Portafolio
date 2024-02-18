@@ -1,17 +1,25 @@
+"use client"
 
 import styles from './cardsPresentation.module.css';
 import Image from 'next/image';
 import { GlowCapture, Glow } from '@codaworks/react-glow';
+import Aos from "aos";
+import "aos/dist/aos.css";
+import { useEffect } from 'react';
 
 export default function CardPresent() {
+
+  useEffect(() => {
+    Aos.init({ duration: 1000 });
+  }, []);
   return (
     <div className={styles.CardPresentation}  id="servicios">
 
-          <div className={styles.cards}>
+          <div className={styles.cards} data-aos="zoom-in"> 
 
           <h1> Desarrollos Frontend</h1> 
 
-          <p>Desarrollador Frontend con experiencia en diseño responsive, frameworks y optimización de rendimiento web.</p>
+          <p>Desarrollos Frontend, ultimos frameworks y optimización de rendimiento web.</p>
 
           <b>Tecnológias</b>
 
@@ -22,7 +30,7 @@ export default function CardPresent() {
           <b>Herramientas</b>
 
 
-          <span>Git</span>
+          <span>Figma</span>
           <span>Git-Hub</span>
           <span>Git-Lab</span>
           <span>Vercel</span>
@@ -32,7 +40,7 @@ export default function CardPresent() {
           </div>
 
 
-        <div className={styles.cards}>
+        <div className={styles.cards} data-aos="zoom-in"> 
 
         <h1>Optimización web</h1> 
 
@@ -58,11 +66,11 @@ export default function CardPresent() {
 
  
 
-        <div className={styles.cards}>
+        <div className={styles.cards} data-aos="zoom-in">
 
         <h1>Desarrollos Backend</h1> 
 
-        <p>Desarrollador Backend con sólida experiencia en la construcción de sistemas robustos y eficientes..</p>
+        <p>Desarrollos Backend, sólida construcción de sistemas robustos y eficientes..</p>
 
         <b>Tecnológias</b>
 
@@ -70,12 +78,13 @@ export default function CardPresent() {
         <p>Node.js,Express,JavaScript,TypeScript, <br></br>MongoDB, PostgreSQL</p>
 
 
-        <b>Herramientas</b>
+        <b>Métodos</b>
 
 
-        <span>Kubernetes</span>
-        <span>Docker</span>
-        <span>Despliegues</span>
+       
+        <span>Git/Git-Hub</span>
+        <span>Arquitectura Backend</span> 
+        <span>Despliegues en la Nube</span>
         <span>Modelado de DB</span>
   
 

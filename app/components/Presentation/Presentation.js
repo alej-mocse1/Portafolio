@@ -3,6 +3,7 @@ import styles from './Presentation.module.css';
 import Image from 'next/image';
 import imgPrincp from '../../assets/JS.png'
 import imgPrincp2 from '../../assets/react.png'
+import imgPrincp3 from '../../assets/Sql.jpg'
 import { GlowCapture, Glow } from '@codaworks/react-glow';
 import { useEffect } from 'react';
 import { ReactTyped } from 'react-typed';
@@ -35,19 +36,30 @@ export default function Presentation() {
 
 <div className={styles.DivImg} data-aos="zoom-in-right">
 
-          {/* <Image
-            width={150}
-           height={150}
-           src={imgPrincp2}
-          className={styles.imgPrincp}
-        /> */}
-
 <Image
-            width={150}
-           height={150}
+          //   width={150}
+          //  height={150}
            src={imgPrincp}
           className={styles.imgPrincp}
         />
+
+
+  
+<Image
+          //   width={150}
+          //  height={150}
+           src={imgPrincp3}
+          className={styles.imgPrincp2}
+        />
+
+          <Image
+          //   width={150}
+          //  height={150}
+           src={imgPrincp2}
+          className={styles.imgPrincp3}
+        />
+
+
         </div> 
 
  

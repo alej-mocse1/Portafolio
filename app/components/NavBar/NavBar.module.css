@@ -116,9 +116,25 @@
     display: flex !important;
     flex-direction: column;
     margin: 15px;
-    margin-left: 10px;
+  
     width: 30px;
  
+  }
+
+  .CloseTogle{
+    width: 25px;
+    height: auto;
+    position: relative;
+    right: 35px;
+    cursor: pointer;
+
+  }
+  .IMGTogle{
+    width: 35px;
+    height: auto;
+    position: relative;
+    right: 40px;
+    cursor: pointer;
   }
 
   .divTogle span{
