@@ -80,6 +80,18 @@
   border-bottom:1.5px solid rgb(72, 90, 90);
 }
 
+@media (min-width: 1868px) {
+
+  .imgLogo{
+    height: 10vw;
+    width: auto;
+    position: relative;
+    top: 50px;
+  }
+   
+}
+
+
 
 @media (min-width: 1508px) {
 
