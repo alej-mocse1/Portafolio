@@ -12,7 +12,9 @@ export default function Footer() {
   return (
     <footer className={styles.footer}>
       <p>
-        desarrollada por Alejandro Mocse
+        <span>
+          desarrollada por Alejandro Mocse
+        </span>
         {/* <Image src={Love} className={styles.imgLogoFooter} /> */}
         <Link href="https://www.facebook.com/alejandro.mocse.94" target="_blank">
           <Image src={Fb} className={styles.imgLogoFooter} />

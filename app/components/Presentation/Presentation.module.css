@@ -62,7 +62,7 @@
     width: auto;
     
     margin-top: -100px;
-    margin-right: 10px;
+    margin-right: 1vw;
     border-radius: 30%;
 
     animation-name: floating;
@@ -79,7 +79,7 @@
     width: auto;
     
     margin-top: -100px;
-    margin-right: 10px;
+    margin-right: 1vw;
     border-radius: 30%;
 
     animation-name: floating;
@@ -96,7 +96,7 @@
     width: auto;
     
     margin-top: -100px;
-    margin-right: 10px;
+    margin-right: 1vw;
     border-radius: 30%;
 
     animation-name: floating;
@@ -106,6 +106,18 @@
 
     filter: drop-shadow(10px 7px 10px rgb(12, 135, 166));
 }
+
+
+
+@media (min-width: 1868px) {
+
+    .divPresentation{
+       background-color: red;
+    }
+     
+  }
+  
+  
 
 
 

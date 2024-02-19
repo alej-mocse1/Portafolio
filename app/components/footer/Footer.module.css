@@ -27,7 +27,7 @@
         height: 30vh;
         background-color: black;
         display: flex;
-        justify-content: start;
+        justify-content: center;
         align-items: center;
     }
 
@@ -35,6 +35,9 @@
         font-size: 13px;
         color: white;
         margin-left: 20px;
+     }
+     .footer p span{
+       display: none;
      }
      
      .imgLogoFooter{
