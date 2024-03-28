@@ -69,7 +69,7 @@ export default function Proyectos() {
           <h4>Proyment.com</h4>
 
           <p>
-            Wen desarrollada para una de las mejores consultoras de Perú,
+            Web desarrollada para una de las mejores consultoras de Perú,
             dedicada a  potenciar empresas a través de servicios integrales.
           </p>
         
