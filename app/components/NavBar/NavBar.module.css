@@ -11,6 +11,7 @@
     display: none;
   }
 
+
   .infoNav{
     width: 100%;
     display: flex;
@@ -79,6 +80,35 @@
 .divLinks ul li a:hover{
   border-bottom:1.5px solid rgb(72, 90, 90);
 }
+
+
+.Inicio{
+    
+  padding-right: 40px;
+  padding-left: 40px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  margin-top: -8px;
+  font-weight: 500;
+  background-color:#211919;
+  position: relative;
+  right: 10px;
+  border-bottom: none;
+ 
+
+}
+
+.Inicio:hover{
+    
+
+  border-bottom: 0px;
+  background-color: #504f4f;
+  transition: 1s;
+
+
+
+}
+
 
 @media (min-width: 1868px) {
 
@@ -171,6 +201,22 @@
     transform: rotate(-45deg) translate(-4.4px,3.5px)
   }
 
+  .Inicio{
+    
+    padding-right: 40px;
+    padding-left: 40px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    margin-top: 0px;
+    font-weight: 500;
+    background-color:#211919;
+    position: relative;
+    right: 20px;
+    top: 5px;
+    border-bottom: none;
+   
+  
+  }
 
   .divLinks{
     width: 100%;
@@ -229,5 +275,7 @@
     left: 78vw;
   }
 }
+
+
 
 
