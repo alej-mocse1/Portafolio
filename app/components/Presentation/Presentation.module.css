@@ -158,6 +158,10 @@
         
     }
 
+    .Contentdivision{
+        display: none;
+    }
+
     .imgPrincp{
         margin-top: -120px;
         height: 100px;
