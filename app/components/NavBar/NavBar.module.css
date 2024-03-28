@@ -118,6 +118,16 @@
     position: relative;
     top: 30px;
   }
+
+  .divLinks ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 500px;
+    list-style: none;
+    margin-right: 200px;
+  }
+
    
 }
 
