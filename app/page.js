@@ -1,3 +1,6 @@
+"use client";
+
+
 import Presentation from './components/Presentation/Presentation.js';
 import AboutMe from './components/AboutMe/AboutMe.js';
 import styles from './page.module.css';
