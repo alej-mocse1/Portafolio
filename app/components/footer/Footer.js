@@ -1,9 +1,5 @@
-import styles from "./Footer.module.css";
-import Link from "next/link";
-import Love from "../../assets/heart-fill.png";
-import Fb from "../../assets/facebook-circle-fill.png";
-import Tw from "../../assets/twitter-fill.png";
-import LK from "../../assets/linkedin-box-fill.png";
+"use client";
+
 import FooterImg from "../../assets/logo.png";
 
 

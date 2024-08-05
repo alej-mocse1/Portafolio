@@ -1,3 +1,5 @@
+"use client";
+
 import Image from "next/image";
 import imgDeSKTOP from "../../assets/dev.jpg";
 import styles from "./AboutMe.module.css";
