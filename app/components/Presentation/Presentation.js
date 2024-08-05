@@ -16,55 +16,44 @@ export default function Presentation() {
     Aos.init({ duration: 4000 });
   }, []);
   return (  
-    <div className={styles.divPresentation}>
+    <>
+{/*
+  Heads up! 👋
 
-        <div data-aos="zoom-in-right"> 
-        <h1>Developer <span><ReactTyped strings={["Full Stack"]} typeSpeed={110} /></span></h1>
-         <p>Desarrollo de aplicaciones web de extremo a extremo de alta calidad.</p> 
-        </div>
+  This component comes with some `rtl` classes. Please remove them if they are not needed in your project.
+*/}
+<section class="bg-gray-900 text-white">
+  <div class="mx-auto max-w-screen-xl px-4 py-32 lg:flex lg:h-screen lg:items-center">
+    <div class="mx-auto max-w-3xl text-center">
+      <h1
+        class="bg-gradient-to-r from-green-300 via-blue-500 to-purple-600 bg-clip-text text-3xl font-extrabold text-transparent sm:text-7xl"
+      >
+        <span><ReactTyped strings={["Developer Full Stack"]} typeSpeed={110}/> </span>
+      </h1>
 
+      <p class="mx-auto mt-4 max-w-xl sm:text-xl/relaxed">
+      Desarrollo de aplicaciones web de extremo a extremo de alta calidad.
+      </p>
 
-<div className={styles.DivImg} >
+      <div class="mt-8 flex flex-wrap justify-center gap-4">
+        <a
+          class="block w-full rounded border border-blue-600 bg-blue-600 px-12 py-3 text-sm font-medium text-white hover:bg-transparent hover:text-white focus:outline-none focus:ring active:text-opacity-75 sm:w-auto"
+          href="https://github.com/alej-mocse1"
+        >
+          GibHub
+        </a>
 
-
-
-  
-<Image
-          //   width={150}
-          //  height={150}
-           src={imgPrincp3}
-          className={styles.imgPrincp2}
-        />
-
-        
-<Image
-          //   width={150}
-          //  height={150}
-           src={imgPrincp2}
-          className={styles.imgPrincp3}
-        />
-
-
-<Image
-          //   width={150}
-          //  height={150}
-           src={imgPrincp}
-          className={styles.imgPrincp}
-        />
-
-
-
-        </div> 
-
-
-<div className={styles.Contentdivision}>
-
-  <div>
-    
-  </div>
-
-</div>
- 
+        <a
+          class="block w-full rounded border border-blue-600 px-12 py-3 text-sm font-medium text-white hover:bg-blue-600 focus:outline-none focus:ring active:bg-blue-500 sm:w-auto"
+          href="https://www.linkedin.com/in/alejandro-mocse-1329b8251/"
+        >
+         Linkedin
+        </a>
+      </div>
     </div>
+  </div>
+</section>
+ 
+    </>
   )
 }

@@ -13,7 +13,7 @@ export default function CardPresent() {
     Aos.init({ duration: 1000 });
   }, []);
   return (
-    <div className={styles.CardPresentation}  id="servicios">
+    <div className={styles.CardPresentation} >
 
           <div className={styles.cards} data-aos="zoom-in"> 
 
@@ -44,7 +44,7 @@ export default function CardPresent() {
 
         <h1>Optimización web</h1> 
 
-        <p className={styles.pResponsive}>Optimización web, mejora de velocidad, rendimiento y SEO de sitios para ofrecer una experiencia excepcional al usuario.</p>
+        <p className={styles.pResponsive}>Optimización web, mejora de velocidad, rendimiento y SEO de sitios para una mejor experiencia de usuario.</p>
 
         <b>Mejoras</b>
 

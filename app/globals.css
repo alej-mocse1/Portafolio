@@ -1,9 +1,14 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
 body{
     width: 100%;
     height: auto;
     margin: 0;
     background-color: #F5F5F5;
 }
+
 ::-webkit-scrollbar {
     width: 10px; /* Ancho de la barra de desplazamiento */
   }

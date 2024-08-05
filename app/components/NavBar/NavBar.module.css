@@ -17,12 +17,7 @@
     display: flex;
     flex-direction: row;
   }
-  .imgLogo{
-    height: 10vw;
-    width: auto;
-    position: relative;
-    top: 10px;
-  }
+
 
   .logoWsp{
     height: 6vw;
