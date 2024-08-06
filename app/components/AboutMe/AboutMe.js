@@ -1,7 +1,7 @@
 "use client";
 
 import Image from "next/image";
-import imgDeSKTOP from "../../assets/dev.jpg";
+import imgDeSKTOP from "../../assets/dev.png";
 import styles from "./AboutMe.module.css";
 import CardPresent from "../Forms/cardsPresentation/cardsPresentation";
 import Link from "next/link";
