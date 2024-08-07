@@ -7,7 +7,16 @@ import Image from "next/image";
 
 export default function Footer() {
   return (
+
+    <>
+    
+    <span className="relative flex justify-center" style={{marginBottom:"90px"}}>
+        <div className="absolute inset-x-0 top-1/2 h-px -translate-y-1/2 bg-transparent bg-gradient-to-r from-transparent via-gray-500 to-transparent opacity-75"></div>
+      </span>
+   
     <footer className="bg-gray lg:grid lg:grid-cols-5" style={{paddingLeft:"45px"}}>
+
+
   
 
       <div className="relative block h-32 lg:col-span-2 lg:h-full">
@@ -192,5 +201,7 @@ export default function Footer() {
         </div>
       </div>
     </footer>
+
+    </>
   );
 }
