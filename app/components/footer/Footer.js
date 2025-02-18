@@ -19,12 +19,12 @@ export default function Footer() {
 
   
 
-      <div className="relative block h-32 lg:col-span-2 lg:h-full">
+      <div className="relative block h-32 lg:col-span-2 lg:h-full" style={{justifyContent:"center", display:"flex", alignItems:"center"}}>
         <Image
           src={FooterImg}
           alt=""
-          className="absolute inset-0"
-          style={{}}
+          // className="absolute inset-0"
+          style={{marginRight:"70px"}}
         />
       </div>
 
