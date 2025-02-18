@@ -14,7 +14,7 @@ export default function AboutMe() {
     >
       <div className="p-8 md:p-12 lg:px-16 lg:py-24">
         <div className="mx-auto max-w-xl text-center ltr:sm:text-left rtl:sm:text-right">
-          <h2 className="text-2xl font-bold text-gray-900 md:text-3xl">
+          <h2 className="text-3xl font-bold text-gray-900 md:text-5xl">
             Hola soy Alejandro!. Full Stack Developer
           </h2>
 
