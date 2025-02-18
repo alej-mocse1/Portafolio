@@ -11,9 +11,27 @@ import localFont from 'next/font/local'
 import Footer from './components/footer/Footer.js';
 import Prices from './components/prices/Prices.js';
 const myFont = localFont({ src: './font/AvertaDemoPE-ExtraBold.otf' })
+import { useEffect } from 'react';
 
 
 export default function Home() {
+
+    useEffect(() => {
+      const threeScript = document.createElement("script");
+      threeScript.setAttribute("id", "threeScript");
+      threeScript.setAttribute(
+        "src",
+        "https://cdnjs.cloudflare.com/ajax/libs/three.js/r121/three.min.js"
+      );
+      document.getElementsByTagName("head")[0].appendChild(threeScript);
+      return () => {
+        if (threeScript) {
+          threeScript.remove();
+        }
+      };
+    }, []);
+  
+
   return (
     <main  className={` ${styles.main} `}>
       <Presentation id="inicio"></Presentation>
