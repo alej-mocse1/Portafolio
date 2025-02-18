@@ -17,7 +17,7 @@ export default function NavBar() {
     <header className="bg-white" >
       <div className="mx-auto max-w-screen-xl px-4 sm:px-6 lg:px-8">
         <div className="flex h-16 items-center justify-between">
-          <div className="flex-1 md:flex md:items-center md:gap-12">
+          <div className="flex-1 md:flex md:items-center md:gap-12"style={{border:"1px solid black"}}>
             <Image
               src={logo}
               className={styles.imgLogo}

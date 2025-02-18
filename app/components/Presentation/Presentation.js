@@ -42,9 +42,9 @@ export default function Presentation() {
 
   return (  
     <div style={{position:"relative", height:"100VH"}}>	
-          <section class="-900 text-white" style={{position:"absolute", top:"0", left:"0", width:"60%", height:"100VH", zIndex:"100", display:"flex",justifyContent:"left", alignItems:"left"}} >
-            <div class="mx-auto max-w-screen-xl px-4 py-32 lg:flex lg:h-screen lg:items-rigth">
-              <div class="mx-auto max-w-3xl text-left">
+          <section class="-900 text-white" style={{position:"absolute", top:"0", left:"0", width:"60%", height:"100VH", zIndex:"100", display:"flex"}} >
+            <div class="mx-auto max-w-screen-xl px-4 py-32 lg:flex lg:h-screen lg:items-rigth" >
+              <div class="mx-auto max-w-3xl text-left" style={{ display:"flex", alignItems:"center",justifyContent:"center",flexDirection:"column"}} >
                 <h1
                   class="bg-gradient-to-r from-green-300 via-blue-500 to-purple-600 bg-clip-text text-3xl font-extrabold text-transparent sm:text-7xl"
                 >
