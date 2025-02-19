@@ -20,6 +20,26 @@
 }
 
 
+.marginResp{
+    display: none;
+ }
+
+
+ .relativeBlock {
+    justify-content: center;
+    display: flex;
+    align-items: center;
+  }
+  
+  .imgStyle {
+    margin-right: 70px;
+    margin-bottom: 30px;
+  }
+
+  .footerP{
+    padding-left: 45px;
+  }
+
 @media (max-width: 768px) {
 
     .footer{
@@ -45,6 +65,27 @@
          position: relative;
          top: 7px;
      }
+
+     .imgResp{
+      margin-right: 90px !important;
+      margin-top: 80px;
+     }
+
+     .marginResp{
+        display: flex;
+        margin-top: 80px;
+     }
+
+     .relativeBlock {
+        justify-content: center;
+        display: flex;
+        align-items: center;
+        max-width: 100%;
+      }
+
+      .footerP{
+        padding-left: 0px;
+      }
      
 }
   
