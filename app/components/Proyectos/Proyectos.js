@@ -119,6 +119,7 @@ export default function Proyectos() {
                 </div>
               </a>
             </li>
+            
             </TextAos>
             <TextAos time={"1500"} direction={"fade-up"}>
             <li>
