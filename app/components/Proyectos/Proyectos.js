@@ -14,6 +14,7 @@ import MoliIntriga from  "./assets/MoliIntriga.png";
 import Yoleit from  "./assets/Yoleit.png";
 import PachaM from "./assets/pachaM.png";
 import coolv1 from "./assets/coolv1.png";
+import SOLID from "./assets/SOLID.png";
 import Aos from "aos";
 import Link from "next/link";
 
@@ -51,16 +52,15 @@ export default function Proyectos() {
           <ul className="mt-8 grid grid-cols-1 gap-4 lg:grid-cols-3">
           <TextAos time={"1000"} direction={"fade-up"}>
             <li>
-              <a  href="https://molipromo.pe/" className="group relative block">
+              <a href="https://latam-news-ar.vercel.app/business" className="group relative block">
                 <Image
-                  src={Moli}
+                  src={LatamNews}
                   alt=""
-                  className=" w-full object-cover transition duration-500 group-hover:opacity-90 image-right"
+                  className="w-full object-cover transition duration-500 group-hover:opacity-90 image-left "
                 />
-
                 <div className="absolute inset-0 flex flex-col items-start justify-end p-6">
-                  <span className="mt-1.5 inline-block bg-black px-5 py-3 text-xs font-medium uppercase tracking-wide text-white">
-                    <Link href="https://molipromo.pe/">Visitar</Link>          
+                 <span className="mt-1.5 inline-block bg-black px-5 py-3 text-xs font-medium uppercase tracking-wide text-white">
+                 <Link href="https://latam-news-ar.vercel.app/business">Visitar</Link>
                   </span>
                 </div>
               </a>
@@ -69,7 +69,7 @@ export default function Proyectos() {
 
             <TextAos time={"1000"} direction={"fade-up"}>
             <li>
-              <a  href="https://www.coolfresh.pe/" className="group relative block">
+              <a  href="https://cool-promo.vercel.app/" className="group relative block">
                 <Image
                   src={Cool}
                   alt=""
@@ -78,7 +78,7 @@ export default function Proyectos() {
 
                 <div className="absolute inset-0 flex flex-col items-start justify-end p-6">
                   <span className="mt-1.5 inline-block bg-black px-5 py-3 text-xs font-medium uppercase tracking-wide text-white">
-                   <Link href="https://www.coolfresh.pe/">Visitar</Link>
+                   <Link href="https://cool-promo.vercel.app/">Visitar</Link>
                   </span>
                 </div>
               </a>
@@ -86,16 +86,16 @@ export default function Proyectos() {
             </TextAos>
 
             <li className="lg:col-span-2 lg:col-start-2 lg:row-span-2 lg:row-start-1">
-              <a href="https://proyment.com/" className="group relative block">
+              <a href="https://solid-into-react-js.vercel.app/" className="group relative block">
                 <Image
-                  src={ProymentImg}
+                  src={SOLID}
                   alt=""
                   className=" w-full object-cover transition duration-500 group-hover:opacity-90 image-left "
                 />
 
                 <div className="absolute inset-0 flex flex-col items-start justify-end p-6">
                   <span className="mt-1.5 inline-block bg-black px-5 py-3 text-xs font-medium uppercase tracking-wide text-white">
-                   <Link href="https://proyment.com/">Visitar</Link>
+                   <Link href="https://solid-into-react-js.vercel.app/">Visitar</Link>
                   </span>
                 </div>
               </a>
@@ -140,19 +140,21 @@ export default function Proyectos() {
 
             <TextAos time={"2000"} direction={"fade-up"}>
             <li>
-              <a href="https://latam-news-ar.vercel.app/business" className="group relative block">
+              <a  href="https://molipromo.pe/" className="group relative block">
                 <Image
-                  src={LatamNews}
+                  src={Moli}
                   alt=""
-                  className="w-full object-cover transition duration-500 group-hover:opacity-90 image-left "
+                  className=" w-full object-cover transition duration-500 group-hover:opacity-90 image-right"
                 />
+
                 <div className="absolute inset-0 flex flex-col items-start justify-end p-6">
-                 <span className="mt-1.5 inline-block bg-black px-5 py-3 text-xs font-medium uppercase tracking-wide text-white">
-                 <Link href="https://latam-news-ar.vercel.app/business">Visitar</Link>
+                  <span className="mt-1.5 inline-block bg-black px-5 py-3 text-xs font-medium uppercase tracking-wide text-white">
+                    <Link href="https://molipromo.pe/">Visitar</Link>          
                   </span>
                 </div>
               </a>
             </li>
+
             </TextAos>
           </ul>
 
