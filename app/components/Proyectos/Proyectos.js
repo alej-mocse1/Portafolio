@@ -4,7 +4,7 @@ import styles from "./Proyectos.module.css";
 import { useEffect } from "react";
 
 import Image from "next/image";
-import Notebook from "./assets/net.jpg";
+import Angular from "./assets/Angularimg.png";
 import ProymentImg from "./assets/Proyment.png";
 import LatamNews from "./assets/latamNews.png"; 
 import Cool from "./assets/Cool.png";
@@ -69,16 +69,16 @@ export default function Proyectos() {
 
             <TextAos time={"1000"} direction={"fade-up"}>
             <li>
-              <a  href="https://cool-promo.vercel.app/" className="group relative block">
+              <a  href="https://angular-example-peach.vercel.app/" className="group relative block">
                 <Image
-                  src={Cool}
+                  src={Angular}
                   alt=""
                   className=" w-full object-cover transition duration-500 group-hover:opacity-90 image-left "
                 />
 
                 <div className="absolute inset-0 flex flex-col items-start justify-end p-6">
                   <span className="mt-1.5 inline-block bg-black px-5 py-3 text-xs font-medium uppercase tracking-wide text-white">
-                   <Link href="https://cool-promo.vercel.app/">Visitar</Link>
+                   <Link href="https://angular-example-peach.vercel.app/">Visitar</Link>
                   </span>
                 </div>
               </a>
@@ -121,7 +121,7 @@ export default function Proyectos() {
             </li>
             
             </TextAos>
-            <TextAos time={"1500"} direction={"fade-up"}>
+            {/* <TextAos time={"1500"} direction={"fade-up"}>
             <li>
               <a href="https://api.whatsapp.com/send?phone=51908868382" className="group relative block">
                 <Image
@@ -137,7 +137,26 @@ export default function Proyectos() {
                 </div>
               </a>
             </li>    
-              </TextAos>
+            </TextAos> */}
+
+          <TextAos time={"1000"} direction={"fade-up"}>
+            <li>
+              <a  href="https://cool-promo.vercel.app/" className="group relative block">
+                <Image
+                  src={Cool}
+                  alt=""
+                  className=" w-full object-cover transition duration-500 group-hover:opacity-90 image-left "
+                />
+
+                <div className="absolute inset-0 flex flex-col items-start justify-end p-6">
+                  <span className="mt-1.5 inline-block bg-black px-5 py-3 text-xs font-medium uppercase tracking-wide text-white">
+                   <Link href="https://cool-promo.vercel.app/">Visitar</Link>
+                  </span>
+                </div>
+              </a>
+            </li>
+            </TextAos>
+
 
             <TextAos time={"2000"} direction={"fade-up"}>
             <li>
